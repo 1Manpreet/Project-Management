@@ -1,0 +1,86 @@
+/* Updated styles for your website */
+
+/* Body and header styles */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Blue color for the header */
+    margin-top: 20px;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+/* Form and button styles */
+form {
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+#savebtn {
+    font-size: 1.5rem;
+    background: #28a745; /* Green color for the button */
+    border: none;
+}
+
+#savebtn:hover {
+    background: #218838; /* Darker green on hover */
+}
+
+/* Issue list styles */
+.labid {
+    display: flex;
+    align-items: center;
+}
+
+.labid span {
+    background: #ff5e00; /* Orange color for the label */
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+
+.well h3 {
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+/* Back button styles (optional) */
+.backbtn {
+    position: absolute;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #007bff; /* Blue color for the back button */
+}
+
+.backbtn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* You can further customize these styles to match your preferences. */
